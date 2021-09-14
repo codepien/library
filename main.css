@@ -1,0 +1,17 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    padding-bottom: 30px;
+}
+h3 {
+    font-size: 10px;
+    color: gray;
+}
+.container {
+    margin-bottom: 30px !important;
+}
+
