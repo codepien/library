@@ -1,0 +1,13 @@
+input {
+    margin: 5px 5px 5px 5px;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+button {
+    margin: 20px 5px 20px 5px;
+}
