@@ -35,40 +35,24 @@
                 <form>
                     <div class="form-group">
                         <label for="inputTitle">Title</label>
-                        <input type="text" placeholder="What is the name of the book?" class="form-control">
+                        <input type="text" id="inputTitle" placeholder="What is the name of the book?" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="inputAuthor">Author</label>
-                        <input type="text" placeholder="Who is the author?" class="form-control">
+                        <input type="text" id="inputAuthor" placeholder="Who is the author?" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="inputPages">Pages</label>
-                        <input type="text" placeholder="How many pages does this book have?" class="form-control"> 
+                        <input type="text" id="inputPages" placeholder="How many pages does this book have?" class="form-control"> 
                     </div>
-                        <button type="submit" class="btn btn-primary">Add or Return</button>
+                        <button type="submit" id="addButton" class="btn btn-primary">Add or Return</button>
                 </form>
             </div>
     </div>
-                
-    <div class="container">
-        <h3>What Book Do You Want to Borrow?</h3>
-        <div class="container">
-            
-            <form>
-                <div class="form-group">
-                    <label for="inputTitleBorrow">Title</label>
-                    <input type="text" placeholder="What is the name of the book?" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="inputAuthorBurrow">Author</label>
-                    <input type="text" placeholder="Who is the author?" class="form-control">
-                </div>
-                    <button type="submit" class="btn btn-primary">Add or Return</button>
-            </form>
-        </div>
-    </div>
+        
     <div class="container">
         <h3>Library List of Books</h3>
+        <ul id="bookList"></ul>
     </div>
     
         
